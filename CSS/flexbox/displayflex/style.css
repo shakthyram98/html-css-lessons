@@ -5,10 +5,12 @@
 
 .red {
     background: red;
+    height: 180px !important;
 }
 
 .green {
     background: green;
+    height: 80px !important;
 }
 
 .blue {
@@ -16,7 +18,12 @@
 }
 
 .container {
+    width: 200px;
+    height: 500px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
